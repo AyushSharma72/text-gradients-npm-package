@@ -1,0 +1,38 @@
+{
+  "name": "text-gradients",
+  "version": "1.1.1",
+  "description": "A React component to apply color gradients very easily to text without any css",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "author": "Ayush Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyushSharma72/text-gradients-npm-package.git"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./esm": "./dist/index.esm.js"
+  }
+}
