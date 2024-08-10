@@ -1,10 +1,3 @@
-import React from "react";
-import "./styles.css";
-
-const GradientText = ({ color, className, children }) => {
-  const ClassName = `${color ? color.toLowerCase() : ""} ${className || ""}`;
-
-  return <span className={ClassName}>{children}</span>;
-};
-
-export default GradientText;
+// src/index.js
+export { default as GradientText } from "./components/GradientText";
+export { default as TextImage } from "./components/TextImage";
