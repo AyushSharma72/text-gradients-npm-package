@@ -1,6 +1,6 @@
 {
   "name": "text-gradients",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "A React component to apply color gradients very easily to text without any css",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -31,6 +31,7 @@
     "type": "git",
     "url": "https://github.com/AyushSharma72/text-gradients-npm-package.git"
   },
+  "homepage": "https://text-gradients-demo.vercel.app/",
   "exports": {
     ".": "./dist/index.js",
     "./esm": "./dist/index.esm.js"
