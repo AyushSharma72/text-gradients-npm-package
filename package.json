@@ -1,6 +1,6 @@
 {
   "name": "text-gradients",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "description": "A React component to apply color gradients very easily to text without any css",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
