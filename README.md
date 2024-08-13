@@ -48,7 +48,7 @@ export default TextGradients;
 **color prop variations:**
 
 purple, deepblue,  lightgreen, peach, yellow, black, lightpink, gray,magenta, slate, darkgreen, bluered, lightpurple, brightorange, red,
-darkblue, cyan, lightbluegreen, ocean, dimyellow, bluepink, dashingblue
+darkblue, cyan, lightbluegreen, ocean, dimyellow, bluepink, dashingblue see here:[Demo Page](https://text-gradients-demo.vercel.app/)
 
 
 
