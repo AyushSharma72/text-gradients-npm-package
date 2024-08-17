@@ -1,4 +1,5 @@
 
+
 # text-gradient
 
 It is a react package to apply gradients and images inside text without writing any css. It offers a range of beautiful gradients.
