@@ -1,195 +1,203 @@
+/* Predefined gradient */
 .purple {
-  background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #a531dc, #4300b1;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .red {
-  background: linear-gradient(220.55deg, #ff0000 0%, #470000 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #ff0000, #470000;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .darkblue {
-  background: linear-gradient(220.55deg, #4643df 0%, #0b0a47 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #4643df, #0b0a47;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .deepblue {
-  background: linear-gradient(220.55deg, #3793ff 0%, #0017e4 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #3793ff, #0017e4;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .cyan {
-  background: linear-gradient(220.55deg, #5ee2ff 0%, #00576a 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #5ee2ff, #00576a;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .peach {
-  background: linear-gradient(220.55deg, #ff896d 0%, #d02020 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #ff896d, #d02020;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .yellow {
-  background: linear-gradient(220.55deg, #ffd439 0%, #ff7a00 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #ffd439, #ff7a00;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .black {
-  background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #565656, #181818;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .lightpink {
-  background: linear-gradient(220.55deg, #dd7bff 0%, #ff6c6c 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #dd7bff, #ff6c6c;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .gray {
-  background: linear-gradient(220.55deg, #afcccb 0%, #616566 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #afcccb, #616566;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .magenta {
-  background: linear-gradient(220.55deg, #d0004b 0%, #88069d 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #d0004b, #88069d;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
-/* combos */
+/* Combos with dynamic direction */
 .lightgreen {
-  background: linear-gradient(220.55deg, #ffe70b 0%, #27b643 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #ffe70b, #27b643;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .darkgreen {
-  background: linear-gradient(220.55deg, #00b960 0%, #00552c 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #00b960, #00552c;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .bluered {
-  background: linear-gradient(220.55deg, #ff3f3f 0%, #063cff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #ff3f3f, #063cff;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .lightpurple {
-  background: linear-gradient(220.55deg, #4063bc 0%, #6b0013 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #4063bc, #6b0013;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .brightorange {
-  background: linear-gradient(220.55deg, #ffc328 0%, #e20000 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #ffc328, #e20000;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .lightbluegreen {
-  background: linear-gradient(220.55deg, #8fff85 0%, #39a0ff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #8fff85, #39a0ff;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .dimyellow {
-  background: linear-gradient(220.55deg, #b9a14c 0%, #000000 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #b9a14c, #000000;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .ocean {
-  background: linear-gradient(to right, #1488cc, #2b32b2);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #1488cc, #2b32b2;
+  background: linear-gradient(
+    var(--gradient-direction, to right),
+    var(--gradient-colors)
+  );
 }
 
 .bluepink {
-  background: linear-gradient(220.55deg, #ff5eef 0%, #456eff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #ff5eef, #456eff;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .slate {
-  background: linear-gradient(220.55deg, #5d85a6 0%, #0e2c5e 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  --gradient-colors: #5d85a6, #0e2c5e;
+  background: linear-gradient(
+    var(--gradient-direction, 220.55deg),
+    var(--gradient-colors)
+  );
 }
 
 .dashingblue {
-  background: linear-gradient(135deg, #6253e1, #04befe);
+  --gradient-colors: #6253e1, #04befe;
+  background: linear-gradient(
+    var(--gradient-direction, 135deg),
+    var(--gradient-colors)
+  );
+}
+
+.purple,
+.red,
+.darkblue,
+.deepblue,
+.cyan,
+.peach,
+.yellow,
+.black,
+.lightpink,
+.gray,
+.magenta,
+.lightgreen,
+.darkgreen,
+.bluered,
+.lightpurple,
+.brightorange,
+.lightbluegreen,
+.dimyellow,
+.ocean,
+.bluepink,
+.slate,
+.dashingblue {
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
