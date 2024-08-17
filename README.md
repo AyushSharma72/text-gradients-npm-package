@@ -1,6 +1,8 @@
-﻿# text-gradient
 
-It is a react package to apply gradients and images inside text without writing any css. It offers a range of beautiful gradients and easy insertion and manipulation of image inside text.
+# text-gradient
+
+It is a react package to apply gradients and images inside text without writing any css. It offers a range of beautiful gradients.
+you can customize the direction of the gradient and also mainpulate the placement of the image inside text.
 
 
 
@@ -16,7 +18,7 @@ visit the page to see how it works
 
 ## Installation
 
-Install my-project with npm and yarn
+Install **"text-gradients"** with npm and yarn
 
 with npm 
 ```bash
@@ -26,8 +28,7 @@ with yarn
 ```
 yarn add text-gradients
 ```
-    
-## Usage/Examples
+    ## Usage/Examples
 
 you can use the package for two things 
 
@@ -47,14 +48,48 @@ export default TextGradients;
 ```
 **color prop variations:**
 
-purple, deepblue,  lightgreen, peach, yellow, black, lightpink, gray, magenta, slate, darkgreen, bluered, lightpurple, brightorange, red,
-darkblue, cyan, lightbluegreen, ocean, dimyellow, bluepink, dashingblue
-
-see here:[Demo Page](https://text-gradients-demo.vercel.app/)
+purple, deepblue,  lightgreen, peach, yellow, black, lightpink, gray,magenta, slate, darkgreen, bluered, lightpurple, brightorange, red,
+darkblue, cyan, lightbluegreen, ocean, dimyellow, bluepink, dashingblue 
 
 
+**direction prop:**
 
-**2) to apply images in text easily**
+the diection prop can be used to chnage the direction of the gradient the default value of this prop is **"right"**
+
+example:
+
+```javascript
+import { GradientText } from "text-gradients";
+
+const TextGradients = () => {
+  return (
+    <GradientText color="purple" direction="top">
+      Text Gradients (purple)
+      
+    </GradientText>
+  );
+};
+export default TextGradients;
+}
+```
+
+**direction prop variations:**
+
+ **"top"** (from bottom to top)  
+ **"bottom"** (from top to bottom)  
+ **"right"** (form left to right)  
+ **"left"** (from left to right)  
+ **"top right"** (towards top right)  
+ **"top left"** (towards top left)  
+ **"bottom right"** (towards bottom right)  
+ **"bottom left"** (towards bottom left)
+
+
+see here : [Demo Page](https://text-gradients-demo.vercel.app/)
+
+
+
+**2) to apply images in text**
 
 give the image path in imageUrl
 ```javascript
@@ -76,8 +111,8 @@ export default ImageInText;
 ```
 
 **pos prop:**
-
- **pos** prop to adjust the placement of the image in the text it accepts value in percentages.
+ 
+Adjusts the placement of the image in the text. Accepts a value in percentages:
 
 example:
 
@@ -101,9 +136,8 @@ export default ImageInText;
 ```
 
 **cover prop:**
-
- **cover** prop that completely covers the element's content box
-it accepts either true or false.
+ 
+ Determines whether the image covers the entire content box. Accepts true or false:
 
 example:
 
@@ -126,15 +160,7 @@ const ImageInText = () => {
 export default ImageInText;
 
 ```
-
-
-
-
 ## Authors
 
-- [@AyushSharma72](https://github.com/AyushSharma72)
+- [Ayush Sharma](https://github.com/AyushSharma72)
 
-
-## Keywords
-
-***text-gradients , gradients , text , react , reactjs , textimages , images***
